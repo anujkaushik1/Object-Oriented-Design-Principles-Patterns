@@ -21,12 +21,14 @@ class Human{
     // No-arg Constructor
 
     public Human() {
+        this(10);
         count++;
         System.out.println("Inside the constructor");
     }
 
     // Paramterized Constructor
     public Human(int age, int weight){
+        this();
         count++;
         this.age = age;
         this.weight = weight;
